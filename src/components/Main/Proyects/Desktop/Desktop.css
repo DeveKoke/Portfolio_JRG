@@ -152,8 +152,14 @@
     .trsprnt h2{
         padding: 10px 0;
     }
+    .formContainer{
+        width: 75%;
+    }
     .formContainer input, textarea{
-        width: 27em;
+        width: 35em;
+    }
+    .formContainer input[type='text']{
+        width: 25em;
     }
     .col{
         width: 85%;
@@ -170,6 +176,6 @@
     }
     .frontWrapper{
         background: linear-gradient(180deg, rgb(6, 85, 97) 0%, rgba(24, 114, 93, 0.8) 100%),
-        url('public/assets/compute.jpg') no-repeat center center fixed;
+        url('/public/assets/compute.jpg') no-repeat center center fixed;
     }
 }
