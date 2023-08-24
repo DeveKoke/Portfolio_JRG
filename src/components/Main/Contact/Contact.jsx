@@ -51,7 +51,7 @@ const Contact = () => {
               } )}  />
                     {errors.asunto?.type === 'required' && <p className="requiredMessage">Este es un campo necesario para conocer la razón de tu contacto.</p>}
                     {errors.asunto?.type === 'maxLength' && <p className="requiredMessage">El asunto es demasiado largo, no más de 50 carácteres, por favor.</p>}
-            <textarea name="mensaje" placeholder="Mensaje *" cols="25" rows="7" maxLength={500} minLength={20}{...register("mensaje", {
+            <textarea name="mensaje" placeholder="Mensaje *" cols="20" rows="7" maxLength={500} minLength={20}{...register("mensaje", {
               required:true, 
               } )}></textarea>
                     {errors.mensaje?.type === 'pattern' && <p className="requiredMessage">Este es un campo necesario, debe ocupar entre 20 y 500 carácteres.</p>}
