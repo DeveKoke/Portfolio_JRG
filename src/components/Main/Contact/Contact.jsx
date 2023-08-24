@@ -16,7 +16,7 @@ const Contact = () => {
           <h2>Contacto</h2>
           <form className="formContainer" 
         
-          action="https://formsubmit.co/8b07d3b9002c8192b2ab9852d52e53e3 " method="POST" >
+          action="https://formsubmit.co/8b07d3b9002c8192b2ab9852d52e53e3" method="POST" >
             <input name="nombre" placeholder="Nombre *" type="text" maxLength={30}{...register("user_name", {
               required:true, 
               pattern:regexName
@@ -70,7 +70,7 @@ const Contact = () => {
 
 
                 {/*  INPUTS PARA CUSTOMIZAR LA ACCIÓN AL ENVÍO DEL FORMULARIO  */}
-              <input type="hidden" name="_next" value='http://localhost:5173'/>
+              <input type="hidden" name="_next" value='https://jrgbeportfolio.netlify.app/'/>
               <input type="hidden" name='_captcha' value='false' />
               <input type="hidden" name='_template' value='table' />
           </form>
