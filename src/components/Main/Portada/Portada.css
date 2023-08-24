@@ -10,15 +10,17 @@
     flex-direction: column;
     align-items: center;
     padding-top: 0em;
-    margin-top: 3.8em;  /**  Modificar media query para pantallas grandes a 4.5em*/
-
+    margin-top: 3.8em; 
+/* 
     background: linear-gradient(180deg, rgb(6, 85, 97) 0%, rgba(24, 114, 93, 0.8) 100%),
-    url('../../../assets/compute.jpg') no-repeat center center fixed;
+    url('../../../assets/compute.jpg') no-repeat center center fixed; */
+
+    background-color: linear-gradient(180deg, rgb(6, 85, 97) 0%, rgba(24, 114, 93, 0.8) 100%);
+    background-image: url('../../../assets/compute.jpg') no-repeat center center fixed;
     background-blend-mode: normal;
     height: 36em;
-    background-size: 80em;           /**  Modificar media query para pantallas grandes a auto */
-    background-position-x: -12em;      /**  Modificar media query para pantallas grandes a 0em */
-    /* background-size: cover; */
+    background-size: 80em;  
+    background-position-x: -12em;  
 }
 .frontContent{
     display: flex;
@@ -33,7 +35,6 @@
 .imgFront{
     width: 30%;
     border-radius: 250px;
-    /* border-radius: 55% 20% / 10% 35%; */
     width: 90%;
     border: solid var(--main-teal) 5px ;
     max-width: 270px;
