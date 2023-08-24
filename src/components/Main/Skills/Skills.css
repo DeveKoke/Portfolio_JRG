@@ -10,7 +10,7 @@
     color: white;
     padding: .1px 0;
     height: 100%;
-    background-image: url('../../assets/keyboard.jpg');
+    background-image: url('../../../assets/keyboard.jpg');
     background-blend-mode: multiply;
     background-color: rgb(18, 102, 111);
     background-size: cover ;
