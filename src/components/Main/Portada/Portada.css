@@ -11,12 +11,9 @@
     align-items: center;
     padding-top: 0em;
     margin-top: 3.8em; 
-/* 
+    
     background: linear-gradient(180deg, rgb(6, 85, 97) 0%, rgba(24, 114, 93, 0.8) 100%),
-    url('../../../assets/compute.jpg') no-repeat center center fixed; */
-
-    background-color: linear-gradient(180deg, rgb(6, 85, 97) 0%, rgba(24, 114, 93, 0.8) 100%);
-    background-image: url('../../../assets/compute.jpg') no-repeat center center fixed;
+    url('/public/assets/compute.jpg') no-repeat center center fixed;
     background-blend-mode: normal;
     height: 36em;
     background-size: 80em;  
