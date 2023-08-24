@@ -1,5 +1,5 @@
 .contactWrapper{
-    background-image: url('public/assets/contactbackground.jpg');
+    background-image: url('../../assets/contactbackground.jpg');
     background-blend-mode: multiply;
     background-color: rgb(10, 86, 96);
     background-size: 150% ;

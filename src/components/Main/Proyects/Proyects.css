@@ -14,7 +14,7 @@
     background-color:  rgb(86, 151, 158);
     color: #ffffff;
 
-    background-image: url('assets/network.jpg');
+    background-image: url('../../assets/network.jpg');
     background-blend-mode: darken;
     background-color: rgb(34, 226, 247);
     background-size: cover ;
