@@ -1,0 +1,167 @@
+.contenido-seccion{
+    width: 90%;
+    margin: 0.7em auto .2em;
+}
+.contenido-seccion h2{
+    padding: 20px;
+}
+.skillsWrapper{
+    /* background-color: rgb(10, 113, 129); */
+    color: white;
+    padding: .1px 0;
+    height: 100%;
+    background-image: url('assets/keyboard.jpg');
+    background-blend-mode: multiply;
+    background-color: rgb(18, 102, 111);
+    background-size: cover ;
+    animation: animatedBackground 130s linear infinite alternate;
+}
+.trsprnte{
+    height: 100%;
+    backdrop-filter: blur(7px);
+}
+.skillsWrapper .skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.skillbarContainer, .skillLogo{
+    display: flex;
+    flex-direction: column;
+}
+.skillbarContainer{
+    width: 75%;
+}
+.skillbarContainer > span{
+
+    /* font-weight: bold; */
+    font-family: 'Work Sans';
+    display: block;
+    /* margin-bottom: 10px; */
+    margin: 0 auto 10px;
+    width: 100%;
+
+}
+.skillsWrapper .skill .barra-skill{
+    height: 8px;
+    width:100%;
+    background-color: #131517;
+    position: relative;
+    margin: 0 auto 30px;
+    border-radius: 10px;
+}
+.skillsWrapper .skill .progreso{
+    background-color:#32efef;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    border-radius: 10px;
+}
+.skillsWrapper .skill .barra-skill span{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: #32efef;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -9px;
+    right: -15px;
+    font-size: 14px;
+}
+.logoSkills{
+    max-width: 3em;
+}
+.logoSkillsX{
+    max-width: 2.2em;
+}
+.mongoDB{
+    max-width: 1.7em;
+}
+.skillsWrapper .skill .javascript{
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+@keyframes javascript {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+.skillsWrapper .skill .htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+@keyframes htmlcss {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+.skillsWrapper .skill .react{
+    width: 0%;
+    animation: 2s react forwards;
+}
+@keyframes react {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.skillsWrapper .skill .nodeExpress{
+    width: 0%;
+    animation: 2s nodeExpress forwards;
+}
+@keyframes nodeExpress {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.skillsWrapper .skill .git{
+    width: 0%;
+    animation: 2s git forwards;
+}
+@keyframes git {
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+.skillsWrapper .skill .mongo{
+    width: 0%;
+    animation: 2s mongo forwards;
+}
+@keyframes mongo {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+.skillsWrapper .skill .sql{
+    width: 0%;
+    animation: 2s sql forwards;
+}
+@keyframes sql {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.skillsWrapper .skill .docker{
+    width: 0%;
+    animation: 2s docker forwards;
+}
+@keyframes docker {
+    0%{width: 0%;}
+    100%{width: 55%;}
+}
+.contenido-seccion > ul{
+    width: 90%;
+    margin: 10px auto;
+    padding-bottom: 20px;
+}
+.contenido-seccion > ul > li {
+    font-family: 'Work Sans';
+    font-weight: 300;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    /* list-style-type:  disc; */
+}
+ul > span{
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    background-color: #32efef;
+    border-radius: 50px;
+
+}

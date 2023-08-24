@@ -1,0 +1,171 @@
+
+/* ----------------   VERSIÓN DESKTOP  -------------------------- */  
+.proyectsGallery {
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 400px;
+    border-radius: 10px;
+    margin: 1.3em auto 1em;
+    transition: margin .5s ease;
+  }
+  
+  /* .proyectsGallery.clicked {
+    margin: 1.3em 1em 1em;
+    width: 60%;
+  }
+   */
+
+.proyectsGallery .GalleryContainer {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .4s ease;
+    border: solid white 2px;
+    display: block;
+    z-index: 1;
+    border-radius: 10px;
+}
+.proyectsGallery .GalleryContainer:hover  {
+    cursor:  pointer;
+    width: 230px;
+
+}
+.GalleryContainer .proyectImgDsk{
+   height: 100%;
+    width: 100%;
+    flex-grow: 1;
+    object-fit: cover;
+    filter: brightness(0.87);
+  transition: filter 0.2s; 
+  border-radius: 10px;
+}
+.GalleryContainer .proyectImgDsk:hover{
+    filter: brightness(1.1);
+}
+
+.show{
+    position: absolute;
+    top: 0;
+    width: auto;
+    min-height: 365px;
+    padding: 1em 2em;
+    text-align: center;
+    background: linear-gradient(rgba(28,182,152,1), rgba(28,182,152,1));
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 18px;
+    letter-spacing: 3px;
+    opacity: 1;
+    z-index: 2;
+    animation: infoCard .5s ease-in  ;
+}
+@keyframes infoCard {
+    0% {
+      opacity: 0;
+    }
+    50%{
+        opacity: .5;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+.show a img{
+    width: 35px;
+    margin: 0 4px 0 0 ;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient(rgba(28,182,152,.9), rgba(28,182,152,.9));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+    font-size: 18px;
+    letter-spacing: 3px;
+    opacity: 0;
+    z-index: -1;
+}
+
+
+/* *  ____________________  MEDIA QUERIES  _______________________ */
+
+@media (min-width: 770px) {
+
+    .frontWrapper{
+        background: linear-gradient(180deg, rgb(6, 85, 97) 0%, rgba(24, 114, 93, 0.8) 100%),
+    url(assets/compute.jpg) no-repeat center center fixed;
+    margin-top: 4.5em;
+    background-size: 104%;          
+    background-position-x: 0em;      
+    }
+    .frontContent{
+        padding: 2em 2.7em 0.4em
+    }
+    .aboutWrapper, .trsprnte,  .trsprnteProyect, .trsprnt{
+        padding: 2em 5.5em;
+    }
+    .aboutWrapper p {
+        line-height: 1.7em;
+        margin: 0.8em auto 1.5em;
+    }
+    .h3-int, .contenido-seccion h3{
+        margin: 2.3em auto 1em ;
+    }
+    .interestCard{
+        width: 75%;
+        margin: 10px auto;
+    }
+    .interestsContainer{
+        column-gap: 10px;
+        row-gap: 50px;
+    }
+    .skillsWrapper{
+        background-size: 140% ;
+        animation: animatedBackground 40s linear infinite alternate;
+    }
+    .proyectsWrapper{
+        background-size: 120% ;
+        animation: animatedBackground 35s linear infinite alternate;
+    }
+    .contactWrapper{
+        animation: animatedBackground 110ms linear infinite alternate;
+    }
+    .trsprnteProyect h2{
+        padding-bottom: 1.2em;
+    }
+    .proyectsGallery{
+        width: 95%;
+        margin: 1.3em auto 2.2em;
+    }
+    .formContainer{
+        width: 55%;
+    }
+    .trsprnt h2{
+        padding: 10px 0;
+    }
+    .formContainer input, textarea{
+        width: 27em;
+    }
+    .col{
+        width: 85%;
+        margin: auto;
+    }
+    .logoSkillsX{
+        max-width: 2.9em;
+    }
+    .logoSkills {
+        max-width: 4em;
+    }
+    .mongoDB{
+        max-width: 1.9em;
+    }
+}

@@ -1,0 +1,26 @@
+:root{
+    --main-dark-green: rgb(6, 85, 97);
+    --main-white: #ffffff;
+    --main-teal: #32efef;
+    --main-list-style: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1% 6%;
+    background-color: var(--main-dark-green);
+    position: fixed;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 88%;    /**  Modificar media query para pantallas grandes a 89% */
+    border-radius: 0 0 10px 10px;
+    z-index: 1000;
+}
+.nameTitle{
+    margin: 8px 0;
+    color: var(--main-teal);
+    letter-spacing: 4px;
+    cursor: pointer;
+} 
+

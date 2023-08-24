@@ -1,0 +1,125 @@
+:root{
+    --main-dark-green: rgb(6, 85, 97);
+    --main-dark-color: #1e2326
+    --main-white: #ffffff;
+    --main-teal: #32efef;
+    --main-list-style: none;
+}
+.frontWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0em;
+    margin-top: 3.8em;  /**  Modificar media query para pantallas grandes a 4.5em*/
+
+    background: linear-gradient(180deg, rgb(6, 85, 97) 0%, rgba(24, 114, 93, 0.8) 100%),
+    url(assets/compute.jpg) no-repeat center center fixed;
+    background-blend-mode: normal;
+    height: 36em;
+    background-size: 80em;           /**  Modificar media query para pantallas grandes a auto */
+    background-position-x: -12em;      /**  Modificar media query para pantallas grandes a 0em */
+    /* background-size: cover; */
+}
+.frontContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 30px 30px;
+    background-color: var(--main-dark-green) ;
+    padding: 2em 1em 0;           /**  Modificar media query para pantallas grandes a 3.5em lateral */
+    color: #ffffff;
+    max-height: 25.5em;      
+}
+.imgFront{
+    width: 30%;
+    border-radius: 250px;
+    /* border-radius: 55% 20% / 10% 35%; */
+    width: 90%;
+    border: solid var(--main-teal) 5px ;
+    max-width: 270px;
+}
+.h3Front{
+    text-align: center;
+    margin: 0 0 15px;
+}
+
+
+
+/* *   --------------------   BOTÓN DESCARGAR  --------------------- */
+.buttonDW {
+    position: relative;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 0px solid rgb(2, 48, 49);
+    background-color: rgb(2, 48, 49);
+    overflow: hidden;
+    border-radius: 8px;
+    font-family: 'Work Sans';
+    font-weight: 100;
+    letter-spacing: 1.6px;
+  }
+  .buttonDWMG{
+    margin: 2.6em auto 1em;
+  }
+  .buttonDWPY{
+    margin: 1em auto 1em;
+
+  }
+  .buttonDW, .buttonDW__icon, .buttonDW__text {
+    transition: all 0.4s;
+  }
+  .buttonDW .buttonDW__text {
+    transform: translateX(6px);
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .buttonDW .buttonDW__icon {
+    position: absolute;
+    transform: translateX(135px);
+    height: 100%;
+    width: 50px;
+    background-color: #106557;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .buttonDW .svg {
+    width: 20px;
+    margin-left: -9px;
+  }
+  
+  .buttonDW:hover {
+    background: #106557;
+  }
+  
+  .buttonDW:hover .buttonDW__text {
+    color: transparent;
+  }
+  
+  .buttonDW:hover .buttonDW__icon {
+    width: 210px;
+    transform: translateX(-12px);
+  }
+  
+  .buttonDW:active .buttonDW__icon {
+    background-color: #12abab;
+  }
+  
+  .buttonDW:active {
+    border: 2px solid #12abab;
+  }
+  .socialIcons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5em;
+  }
+  .socialIcons img{
+    width: 2em;
+    margin: 0 .5em;
+
+  }

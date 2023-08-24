@@ -1,0 +1,30 @@
+:root{
+    --main-dark-green: rgb(6, 85, 97);
+    --main-dark-color: #1e2326;
+    --second-dark-green: rgb(4, 50, 56);
+    --main-white: #ffffff;
+    --main-teal: #32efef;
+    --main-list-style: none;
+}
+
+.proyectsWrapper{
+    width: 100%;
+    min-height: 30em;
+    /* padding: 1.2em auto; */
+    background-color:  rgb(86, 151, 158);
+    color: #ffffff;
+
+    background-image: url('assets/network.jpg');
+    background-blend-mode: darken;
+    background-color: rgb(34, 226, 247);
+    background-size: cover ;
+    animation: animatedBackground 130s linear infinite alternate;
+}
+.trsprnteProyect{
+    padding-bottom: 1.6em;
+    backdrop-filter: blur(4px);
+}
+.proyectsWrapper h2{
+    padding-top: 25px;
+}
+

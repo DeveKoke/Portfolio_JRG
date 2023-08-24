@@ -1,0 +1,49 @@
+.menuHam{
+    width: 10em;
+    background-color: #32efef;
+    border: solid 3px #0c9e9e ;
+}
+.menuHam li{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+.menuHam li:hover{
+background-color: rgb(6, 85, 97);
+color: #32efef;
+}
+.hide-on-large-screen{
+    display: block;
+}
+.navbar{
+    display: none;
+    min-width: 23em;
+}
+.ul_navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.ul_navbar li{
+    color: #32efef;
+    font-family: 'RocknRoll One';
+}
+.ul_navbar li:hover{
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'RocknRoll One';
+}
+
+@media (min-width: 770px) {
+    header{
+        align-items: center;
+    }
+    .navbar {
+      display: block;
+    }
+    .hide-on-large-screen{
+        display: none;
+    }
+  }

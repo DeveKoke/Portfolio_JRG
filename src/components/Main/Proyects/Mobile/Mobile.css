@@ -1,0 +1,52 @@
+/* ----------------   VERSIÓN MOVIL  -------------------------- */  
+.proyectsContainer-mv{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows:repeat(3, 1fr);
+    gap: 10px;
+    margin: .8em 0 0;
+    padding-bottom: 25px;
+}
+.repoInfoText{
+    display: flex;
+    flex-direction: column;
+}
+.repoInfoText h3{
+    text-align: center;
+    font-size: 1.25em;
+    margin-top: 2em;
+}
+.proyects-mv-img{
+    width: 150px;
+    max-height: 140px;
+    justify-self: center;
+    grid-auto-columns: min-content;
+    border-radius: 10px;
+    margin: .7em 0;
+    border: solid 3px  #0ec3c3;
+}
+/* img[src$="resource.png"] */
+.repoCard a img{
+    width: 25px;
+    margin: 0 4px 0 0 ;
+}
+.repoCard a {
+    align-self: flex-end;
+    margin: 0;
+}
+.repoCard{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 91%;
+    min-height: 22em ;
+    margin: 1em auto 0em;
+    background-color: rgb(17, 118, 134);
+    color: white;
+    padding: 13px 8px;
+    border-radius: 10px;
+}
+.repoCardText{
+    margin-bottom: 1em;
+    font-size: 1em;
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,500;1,200&display=swap');
+
+body{
+  margin: 0;
+}
+h1, h2{
+  text-align: center;
+  font-family: 'RocknRoll One';
+  letter-spacing: 2px;
+}
+h3, p {
+  font-family: 'Work Sans';
+}
+h2{
+  width: 90%;
+  margin: auto;
+}
+h3{
+  font-weight: 500;
+  font-size: 1em;
+}
+p{
+  font-weight: 300;
+  width: 90%;
+  margin: .8em auto 1em;
+  line-height: 21px;
+}
+a{
+  cursor: pointer;
+  text-decoration: none;
+}
+ul{
+  padding: 0;
+}
+ul li{
+  list-style: none;
+}
+/* a > img{
+  width: 40px;
+  margin: 15px 15px;
+} */
+p a:visited{
+  text-decoration: none;
+  color: rgb(22, 211, 211);
+}

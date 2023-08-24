@@ -1,0 +1,148 @@
+.contactWrapper{
+    background-image: url('assets/contactbackground.jpg');
+    background-blend-mode: multiply;
+    background-color: rgb(10, 86, 96);
+    background-size: 150% ;
+    color: #fff;
+    animation: animatedBackground 120s linear infinite alternate;
+}
+@keyframes animatedBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 60% 40%;
+    }
+}
+.trsprnt{
+    padding: 1em 0;
+    backdrop-filter: blur(1.3px);
+}
+.formContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: start;
+    /* padding: 1em 4em 1em; */
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+.formContainer input{
+    width: 65%;
+}
+.formContainer input, textarea{
+    margin: 8px 0;
+    background-color: rgb(2, 48, 49);
+    color: white;
+    padding: 7px 0 7px 7px;
+    border-radius: 8px;
+    border: solid 2px rgb(2, 48, 49);
+    font-family: 'RocknRoll One';
+}
+.formContainer input:active, textarea:active{
+    border: solid 2px white;
+    background-color: rgb(6, 78, 79);
+}
+.formContainer input:focus, textarea:focus{
+    /* border: solid 2px white; */
+    background-color: rgb(6, 78, 79);
+}
+.formContainer input::placeholder, textarea::placeholder{
+    color:#53fcfc;
+}
+.requiredMessage{
+    border-radius: 8px;
+    background-color: #53fcfc;
+    color: rgb(2, 48, 49) ;
+    padding: 5px 9px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2em;
+    margin: .2em 1em 1em ;
+    max-width: max-content;
+}
+.formContainer .buttonSend{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 10em;
+    padding: 7px;
+    margin: 10px auto 0;
+    background-color: rgb(2, 48, 49);
+    color: white;
+    font-family: 'RocknRoll One';
+    border: none;
+    border-radius: 8px;
+
+}
+.formContainer button img {
+    width: 2em;
+}
+
+
+/* *   --------------------   BOTÓN ENVÍAR  --------------------- */
+.button {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 0px solid rgb(2, 48, 49);
+    background-color: rgb(2, 48, 49);
+    overflow: hidden;
+    border-radius: 8px;
+    font-family: 'Work Sans';
+    font-weight: 100;
+    letter-spacing: 1.6px;
+  }
+  .button, .button__icon, .button__text {
+    transition: all 0.4s;
+  }
+  
+  .button .button__text {
+    transform: translateX(22px);
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .button .button__icon {
+    position: absolute;
+    transform: translateX(109px);
+    height: 100%;
+    width: 50px;
+    background-color: #106557;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button .svg {
+    width: 20px;
+    margin-right: 15px;
+  }
+  
+  .button:hover {
+    background: #106557;
+  }
+  
+  .button:hover .button__text {
+    color: transparent;
+  }
+  
+  .button:hover .button__icon {
+    width: 210px;
+    /* 148px */
+    transform: translateX(-25px);
+  }
+  
+  .button:active .button__icon {
+    background-color: #12abab;
+  }
+  
+  .button:active {
+    border: 2px solid #12abab;
+  }

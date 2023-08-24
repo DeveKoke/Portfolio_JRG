@@ -1,0 +1,24 @@
+:root{
+    --main-dark-green: rgb(6, 85, 97);
+    --second-dark-green: rgb(4, 50, 56);
+    --main-white: #ffffff;
+    --main-teal: #32efef;
+    --main-list-style: none;
+}
+.aboutWrapper{
+    margin-top: 0;
+    background-color: var(--second-dark-green);
+    color: var(--main-white);
+    padding: 25px 0;
+
+}
+.aboutContainer{
+    margin:.7em 0 1em;
+}
+.h1About{
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+
+
+
