@@ -14,6 +14,8 @@ export function skillsEffect(){
         habilidades[5].classList.add("mongo");
         habilidades[6].classList.add("sql");
         habilidades[7].classList.add("docker");
+        habilidades[8].classList.add("typescript");
+        habilidades[9].classList.add("angular");
     }
 }
 

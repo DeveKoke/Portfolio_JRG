@@ -115,6 +115,32 @@ const Skills = () => {
                           </div>
                         </div>
                       </div>
+                      <div className="skill">
+                        <div className='skillLogo'>
+                          <img className='logoSkillsX' src="assets/typescript-icon.svg" alt="" />
+                        </div>
+                        <div className='skillbarContainer'>
+                          <span>Type Script</span>
+                          <div className="barra-skill">
+                              <div className="progreso">
+                                  <span></span>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="skill">
+                        <div className='skillLogo'>
+                          <img className='logoSkillsX' src="assets/angular.png" alt="" />
+                        </div>
+                        <div className='skillbarContainer'>
+                          <span>Angular</span>
+                          <div className="barra-skill">
+                              <div className="progreso">
+                                  <span></span>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
                   </div>
               </div>
         </article>

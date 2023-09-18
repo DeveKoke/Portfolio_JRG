@@ -104,7 +104,7 @@
         background: linear-gradient(180deg, rgb(6, 85, 97) 0%, rgba(24, 114, 93, 0.8) 100%),
     url(assets/compute.jpg) no-repeat center center fixed;
     margin-top: 4.5em;
-    background-size: 104%;          
+    background-size: 94em;          
     background-position-x: 0em;      
     }
     .frontContent{
@@ -173,9 +173,5 @@
     }
     .mongoDB{
         max-width: 1.9em;
-    }
-    .frontWrapper{
-        background: linear-gradient(180deg, rgb(6, 85, 97) 0%, rgba(24, 114, 93, 0.8) 100%),
-        url('/public/assets/compute.jpg') no-repeat center center fixed;
     }
 }

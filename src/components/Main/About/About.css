@@ -19,6 +19,11 @@
     margin-top: 0;
     padding-bottom: 20px;
 }
-
+.links{
+    color: rgb(184, 251, 251);
+}
+.links:visited{
+    color: rgb(180, 252, 252);
+}
 
 
