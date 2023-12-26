@@ -111,7 +111,7 @@
 }
 @keyframes nodeExpress {
     0%{width: 0%;}
-    100%{width: 50%;}
+    100%{width: 45%;}
 }
 .skillsWrapper .skill .git{
     width: 0%;
@@ -127,7 +127,7 @@
 }
 @keyframes mongo {
     0%{width: 0%;}
-    100%{width: 85%;}
+    100%{width: 63%;}
 }
 .skillsWrapper .skill .sql{
     width: 0%;
@@ -143,7 +143,7 @@
 }
 @keyframes docker {
     0%{width: 0%;}
-    100%{width: 40%;}
+    100%{width: 35%;}
 }
 .skillsWrapper .skill .typescript{
     width: 0%;
