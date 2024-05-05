@@ -9,7 +9,7 @@ const Portada = () => {
         <div className='frontContent'>
             <img src="assets/Yo_portada.jpg" alt="fotografía de portada de Jorge" className="imgFront" id='portada' />
             <h1>JORGE BLAS ESPEJO</h1>
-            <h3 className='h3Front'>Full Stack Developer</h3>
+            <h3 className='h3Front'>Frontend Developer</h3>
         </div>
         <div className='socialIcons'>
             <a target='_blank' href="https://www.instagram.com/jrg.bles/">

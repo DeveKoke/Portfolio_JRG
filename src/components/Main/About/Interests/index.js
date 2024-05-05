@@ -8,11 +8,11 @@ class Interest {
 const CiTec = new Interest('Ciencia y Tecnología', 
                             'Siempre digo que tengo una parte de científico frustrado. Aunque fui por Ciencias Sociales, siempre me interesaron las ciencias. Por ejemplo, me maravilla la astronomía, y todo el universo, el sistema solar, la física y las fuerzas que rigen el cosmos...incluso tengo mi propio telescopio! Además, me atraen las tecnologías y me genera curiosidad cuando veo nuevas herramientas que en seguida quiero probar e implementar en algun proyecto nuevo.');
 const History = new Interest('Historia',
-                            'Siempre me ha apasionado la historia de la humanidad en general, cualquier etapa en realidad. Casi todo lo que leo va en esa dirección, y ver películas o documentales sobre cualquier tema, época, civilización, o personaje.');
+                                'Siempre me ha apasionado la historia de la humanidad en general, cualquier etapa en realidad. Casi todo lo que leo va en esa dirección, y ver películas o documentales sobre cualquier tema, época, civilización, o personaje. Mis épocas favoritas: la prehistoria, el Imperio Romano y el siglo XIX');
 const Fotography = new Interest('Fotografía',
                                'Esta es una afición que deriva de la anterior. Fotografía y tecnología a menudo van unidas. Cuando cojo mi cámara siempre busco captar detalles, cosas que a menudo nos pasan desapercibidas. Puedes ver algunas de mis fotos en mi Instagram.');
 const Traveling = new Interest('Viajar',
-                            '¿A quién no le gusta viajar? Con esta pequeña afición he podido visitar unos 12 países diferentes como Grecia, Italia, Irlanda, Perú... Por no hablar de todos los viajes por suelo nacional.' );
+                            '¿A quién no le gusta viajar? Con esta pequeña afición he podido visitar unos 12 países diferentes como Grecia, Italia, Irlanda, Perú... Por no hablar de todos los viajes por suelo nacional. Y tengo muchos planeados que seguro llevaré a cabo.' );
 const Sports = new Interest('Deportes',
                             'Me van mucho los deportes y la actividad física, a ser posible en montaña o en el agua. Siempre que puedo me doy una escapadita a montaña o playa para desconectar y practicarlos. Lamentablemente los deportes del motor, de mis favoritos, no puedo practicarlos tanto como me gustaría.' );
 const Cinema = new Interest('Cine',
